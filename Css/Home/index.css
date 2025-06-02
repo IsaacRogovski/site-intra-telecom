@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'Poppins_Light';
+  src: url('../../Fonts/Poppins/Poppins-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins_Regular';
+  src: url('../../Fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Poppins_SemiBold';
+  src: url('../../Fonts/Poppins/Poppins-SemiBold.ttf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins_Light';
+}
+
+a:hover, button:hover{
+    background-color: #0c022c;
+    color: #b794ff;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+*:focus-visible {
+    outline: 2px dashed #b794ff; /* contorno roxo tracejado */
+    outline-offset: 3px;
+    border-radius: 8px; /* opcional, se quiser cantos arredondados */
+    background-color: #0c022c;
+    color: #b794ff;
+    transform: scale(1.05);
+}
+
+
+
+/* HEADER------------------------------------------------------------------------------------- */
+
+header{
+    background-color: #000000;
+    color: #b794ff
+}
+
+.acessibilidade{
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+i{
+    font-size: 20px;
+}
+
+header button {
+    background-color: transparent;
+    color: #b794ff;
+    border: none;
+    border-radius: 10px;
+}
+
+.linguas{
+    appearance: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #b794ff;
+    color: #000000;
+    border-radius: 45px;
+    border-color: #000000;
+    font-family: 'Poppins_Regular';
+    font-size: 15px;
+}
+
+.linguas:hover {
+    background-color: #0c022c;
+    color: #b794ff;
+    transform: scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.linguas:focus-visible {
+    outline: 2px dashed #4d3a8a;
+    outline-offset: 3px;
+    border-radius: 8px;
+    background-color: #0c022c;
+    color: #b794ff;
+    transform: scale(1.05);
+}
+
+.subheader a{
+    text-decoration: none;
+    color: #b794ff;
+    border-radius: 15px;
+    padding: 5px;
+
+}
+
+hr {
+  border: none;             
+  height: 3px;               
+  background-color: #b794ff; 
+}
+
+.subheader{
+    padding: 20px;
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.subheader img{
+    width: 80px;
+    height: auto;
+}
+
+/* MAIN-------------------------------------------------------------------------------------------- */
+
+.sessao_um {
+    background-color: black;
+    color: #b794ff;
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    overflow: hidden;
+    padding: 0 0px 0 110px;
+}
+
+.mulher_celular_1{
+    width: 30%;
+    height: auto;
+    margin-bottom: -10px;
+}
+
+.Logo_Slogan {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 60px;
+}
+
+.logotipo{
+    width: 500px;
+    height:auto;
+}
+
+.slogan{
+    font-size: 50px;
+    font-family: 'Poppins_SemiBold';
+
+}
+
+/* FOOTER-------------------------------------------------------------------------------------------- */
+
+footer{
+    background-color: #000000;
+    color: #b794ff;
+}
+
+
+
