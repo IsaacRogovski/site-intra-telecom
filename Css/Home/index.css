@@ -21,18 +21,18 @@ body {
 }
 
 a:hover, button:hover{
-    background-color: #8c7bdc;
-    color: #4d3a8a;
+    background-color: #0c022c;
+    color: #b794ff;
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }
 
 *:focus-visible {
-    outline: 2px dashed #4d3a8a; /* contorno roxo tracejado */
+    outline: 2px dashed #b794ff; /* contorno roxo tracejado */
     outline-offset: 3px;
     border-radius: 8px; /* opcional, se quiser cantos arredondados */
-    background-color: #8c7bdc;
-    color: #4d3a8a;
+    background-color: #0c022c;
+    color: #b794ff;
     transform: scale(1.05);
 }
 
@@ -41,8 +41,8 @@ a:hover, button:hover{
 /* HEADER------------------------------------------------------------------------------------- */
 
 header{
-    background-color: #1e1e1e;
-    color: #4d3a8a
+    background-color: #000000;
+    color: #b794ff
 }
 
 .acessibilidade{
@@ -59,7 +59,7 @@ i{
 
 header button {
     background-color: transparent;
-    color: #4d3a8a;
+    color: #b794ff;
     border: none;
     border-radius: 10px;
 }
@@ -70,17 +70,17 @@ header button {
     padding-bottom: 5px;
     padding-left: 10px;
     padding-right: 10px;
-    background-color: #4d3a8a;
-    color: #1e1e1e;
+    background-color: #b794ff;
+    color: #000000;
     border-radius: 45px;
-    border-color: #1e1e1e;
+    border-color: #000000;
     font-family: 'Poppins_Regular';
     font-size: 15px;
 }
 
 .linguas:hover {
-    background-color: #8c7bdc;
-    color: #4d3a8a;
+    background-color: #0c022c;
+    color: #b794ff;
     transform: scale(1.05);
     transition: all 0.2s ease-in-out;
 }
@@ -89,14 +89,14 @@ header button {
     outline: 2px dashed #4d3a8a;
     outline-offset: 3px;
     border-radius: 8px;
-    background-color: #8c7bdc;
-    color: #4d3a8a;
+    background-color: #0c022c;
+    color: #b794ff;
     transform: scale(1.05);
 }
 
 .subheader a{
     text-decoration: none;
-    color: #4d3a8a;
+    color: #b794ff;
     border-radius: 15px;
     padding: 5px;
 
@@ -105,7 +105,7 @@ header button {
 hr {
   border: none;             
   height: 3px;               
-  background-color: #4d3a8a; 
+  background-color: #b794ff; 
 }
 
 .subheader{
@@ -124,8 +124,8 @@ hr {
 /* MAIN-------------------------------------------------------------------------------------------- */
 
 .sessao_um {
-    background-color: #1e1e1e;
-    color: #4d3a8a;
+    background-color: black;
+    color: #b794ff;
     display: flex;
     height: 70vh;
     align-items: center;
@@ -161,8 +161,8 @@ hr {
 /* FOOTER-------------------------------------------------------------------------------------------- */
 
 footer{
-    background-color: #1e1e1e;
-    color: #4d3a8a
+    background-color: #000000;
+    color: #b794ff;
 }
 
 
