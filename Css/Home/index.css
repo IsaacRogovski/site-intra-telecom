@@ -18,6 +18,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins_Light';
+    background-color: #000000;
 }
 
 a:hover, button:hover{
